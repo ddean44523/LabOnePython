@@ -7,7 +7,7 @@ def far_to_cel(f):
 
 def lab_one():
   temp = float( input("Enter temperature: "))
-  unit = input("Enter unit in F/f or C/c:")
+  unit = input("Enter unit in F/f or C/c: ")
   if unit == "F" or unit == "f":
     print(str(temp)+"° in Fahrenheit is equivalent to "+far_to_cel(temp)+"° Celsius.")
   elif unit == "C" or unit == "c":
